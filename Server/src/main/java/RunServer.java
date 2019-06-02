@@ -17,7 +17,7 @@ public class RunServer
 
     public static void runServer()
     {
-        org.eclipse.jetty.server.Server server = new org.eclipse.jetty.server.Server();
+        Server server = new Server();
         ServerConnector connector = new ServerConnector(server);
         connector.setPort(port);
         connector.setIdleTimeout(30000);

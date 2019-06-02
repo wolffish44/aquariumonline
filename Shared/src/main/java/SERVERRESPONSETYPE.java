@@ -1,0 +1,4 @@
+public enum SERVERRESPONSETYPE
+{
+    SUCCESSFUL_CONNECT
+}
