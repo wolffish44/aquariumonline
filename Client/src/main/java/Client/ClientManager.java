@@ -1,3 +1,5 @@
+package Client;
+
 import Communication.AquariumControllable;
 import Communication.ClientEndPoint;
 import Communication.ClientEndPointable;
@@ -10,7 +12,7 @@ public class ClientManager implements ClientManagerable
     public ClientManager(AquariumControllable controller)
     {
         this.controller=controller;
-        this.clientEndPointable=new ClientEndPoint();
+        this.clientEndPointable=new ClientEndPoint(this);
         clientEndPointable.startClient();
     }
     public void updateAquarium(Aquariumable aquariumable)

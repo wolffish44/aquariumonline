@@ -1,6 +1,6 @@
 package Model;
 
-public abstract class PlaceableObject
+public  class PlaceableObject
 {
 
     private int xLocation;
@@ -35,7 +35,6 @@ public abstract class PlaceableObject
     {
         return new HitBox(xLocation,yLocation,size);
     }
-    public abstract void spawn();
     public PLACEABLETYPE getPlaceabletype() {
         return placeabletype;
     }

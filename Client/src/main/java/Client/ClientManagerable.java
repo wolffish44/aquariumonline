@@ -1,3 +1,5 @@
+package Client;
+
 import Model.Aquariumable;
 
 public interface ClientManagerable

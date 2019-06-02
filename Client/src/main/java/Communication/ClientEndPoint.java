@@ -1,21 +1,27 @@
 package Communication;
 
+import Client.ClientManager;
+import Client.ClientManagerable;
 import Model.Aquariumable;
-import Model.PlaceableObject;
+import Model.ClientAquarium;
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+
 import javax.websocket.ClientEndpoint;
 import javax.websocket.ContainerProvider;
 import javax.websocket.OnMessage;
 import javax.websocket.WebSocketContainer;
+import javax.ws.rs.client.Client;
 import java.net.URI;
-import java.util.List;
 
 @ClientEndpoint
 public class ClientEndPoint implements ClientEndPointable
 {
     public Gson gson = new Gson();
+    ClientManagerable clientManager ;
+    public ClientEndPoint(ClientManager clientManagerable)
+    {
+        clientManager=clientManagerable;
+    }
         public  void startClient() {
             System.out.println("[WebSocket Client start]");
             try {
@@ -30,6 +36,7 @@ public class ClientEndPoint implements ClientEndPointable
         @OnMessage
         public void msgReceived(String message)
         {
+            System.out.println(message);
            ServerResponse response = gson.fromJson(message,ServerResponse.class);
            executeMessage(response);
         }
@@ -39,8 +46,12 @@ public class ClientEndPoint implements ClientEndPointable
             switch (response.getServerResponseType())
             {
                 case AQUARIUMUPDATE:
-
+                  //   ClientAquarium aquarium= gson.fromJson(response.getParameter(),ClientAquarium.class);
+                   // clientManager.updateAquarium(aquarium);
+                    break;
             }
         }
+
+
 
 }

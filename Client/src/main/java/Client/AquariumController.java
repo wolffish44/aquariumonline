@@ -1,3 +1,5 @@
+package Client;
+
 import Communication.AquariumControllable;
 import Model.PlaceableObject;
 import javafx.event.ActionEvent;

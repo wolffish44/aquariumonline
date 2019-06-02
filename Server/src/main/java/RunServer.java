@@ -31,6 +31,7 @@ public class RunServer
             ServerContainer wscontainer = WebSocketServerContainerInitializer.configureContext(webSocketContext);
             wscontainer.addEndpoint(ServerEndPoint.class);
             server.start();
+            GameManager manager = new GameManager();
             server.join();
         } catch (Throwable t) {
             t.printStackTrace(System.err);

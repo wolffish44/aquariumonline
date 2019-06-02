@@ -5,8 +5,8 @@ public class Fish extends PlaceableObject
     public String name;
     public int speed;
     public String speciesName;
-    public Aquarium aquarium;
-    private FishMovement fishMovement;
+    public transient Aquarium aquarium;
+    private transient FishMovement fishMovement;
     public Fish(String speciesName,int speed)
     {
         this.speciesName=speciesName;

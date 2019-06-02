@@ -1,5 +1,6 @@
 import Communication.SERVERRESPONSETYPE;
 import Communication.ServerResponse;
+import Model.ClientAquarium;
 import Model.PlaceableObject;
 import com.google.gson.Gson;
 
@@ -15,7 +16,6 @@ public class ServerEndPoint implements ServerEndPointable{
 
     Gson gson = new Gson();
     private static final List<Session> sessions = new ArrayList();
-    GameManager manager = new GameManager(this);
     @OnOpen
     public void onConnect(Session session)
     {
@@ -32,20 +32,20 @@ public class ServerEndPoint implements ServerEndPointable{
       result = gson.toJson(serverResponse);
       return result;
     }
-    public void updateAquariumObjects(List<PlaceableObject> objects)
+    public void updateAquarium(ClientAquarium aquarium)
     {
         ServerResponse newResponse = new ServerResponse();
         newResponse.setServerResponseType(SERVERRESPONSETYPE.AQUARIUMUPDATE);
-        newResponse.setParameter(objects);
+        newResponse.setParameter(aquarium);
         sendMessageToAllClients(newResponse);
 
     }
     public void sendMessageToAllClients(ServerResponse serverResponse)
     {
+        String response=gson.toJson(serverResponse);
         for (Session session:sessions)
         {
-            String messageResult =gson.toJson(serverResponse);
-            session.getAsyncRemote().sendText(messageResult);
+            session.getAsyncRemote().sendText(response);
         }
     }
 }

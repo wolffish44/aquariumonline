@@ -6,10 +6,10 @@ public class GameManager
 {
     int frameSpeed = 20;
     Aquarium aquarium = new Aquarium();
-    ServerEndPointable serverEndPointable;
-    public GameManager(ServerEndPointable serverEndPointable)
+    ServerEndPointable serverEndPointable = new ServerEndPoint();
+    public GameManager()
     {
-        this.serverEndPointable= serverEndPointable;
+      //  this.serverEndPointable= serverEndPointable;
         startGame();
     }
     public void startGame()
@@ -37,7 +37,6 @@ public class GameManager
         {
             fish.swim();
         }
-        List<PlaceableObject>objects = aquarium.getObjects();
-        serverEndPointable.updateAquariumObjects(objects);
+        serverEndPointable.updateAquarium(aquarium.toClientAquarium());
     }
 }
