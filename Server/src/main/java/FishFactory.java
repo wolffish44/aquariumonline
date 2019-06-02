@@ -1,9 +1,12 @@
+import Model.PLACEABLETYPE;
+
 public class FishFactory
 {
-    public Fish createNeonTetra()
+    public static Fish createNeonTetra()
     {
         Fish neonTetra = new Fish("Neon Tetra",4);
-        neonTetra.size =100;
+        neonTetra.setSize(32);
+        neonTetra.setPlaceabletype(PLACEABLETYPE.neon_tetra);
         return neonTetra;
     }
 }

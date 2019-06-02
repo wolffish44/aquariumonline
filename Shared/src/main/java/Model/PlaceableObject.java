@@ -1,9 +1,12 @@
+package Model;
+
 public abstract class PlaceableObject
 {
 
     private int xLocation;
     private int yLocation;
     protected int size;
+    PLACEABLETYPE placeabletype;
     public void place(int x,int y)
     {
         this.xLocation=x;
@@ -33,5 +36,12 @@ public abstract class PlaceableObject
         return new HitBox(xLocation,yLocation,size);
     }
     public abstract void spawn();
+    public PLACEABLETYPE getPlaceabletype() {
+        return placeabletype;
+    }
+
+    public void setPlaceabletype(PLACEABLETYPE placeabletype) {
+        this.placeabletype = placeabletype;
+    }
 
 }

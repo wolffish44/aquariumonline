@@ -1,3 +1,5 @@
+import Model.PlaceableObject;
+
 public class FishMovement
 {
     Aquarium aquarium;

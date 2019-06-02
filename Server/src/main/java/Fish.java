@@ -1,3 +1,5 @@
+import Model.PlaceableObject;
+
 public class Fish extends PlaceableObject
 {
     public String name;
