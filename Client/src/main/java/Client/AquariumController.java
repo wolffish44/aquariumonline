@@ -17,7 +17,7 @@ public class AquariumController implements AquariumControllable {
     @FXML
     public Button ShopButton;
     @FXML
-    public Canvas aquariumCanvas;
+    public Canvas aquariumCanvas = new Canvas(700,500);
     final GraphicsContext graphicsContext ;
     public AquariumController()
     {
@@ -28,10 +28,11 @@ public class AquariumController implements AquariumControllable {
     }
     public void updateObjects(List<PlaceableObject> objects)
     {
-        for (PlaceableObject object :objects)
-        {
-            graphicsContext.drawImage(getImage(),object.xLocation,object.yLocation);
-        }
+        graphicsContext.drawImage(getImage(),0,0);
+//        for (PlaceableObject object :objects)
+//        {
+//            graphicsContext.drawImage(getImage(),object.xLocation,object.yLocation);
+//        }
     }
     public Image getImage()
     {
