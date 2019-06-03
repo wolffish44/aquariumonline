@@ -25,7 +25,7 @@ public class GameManager
     public void startUpdatingGame()
     {
         while(true) {
-            if (System.currentTimeMillis() % 20 == 0) {
+            if (System.currentTimeMillis() % 1000 == 0) {
                 moveFishes();
             }
         }

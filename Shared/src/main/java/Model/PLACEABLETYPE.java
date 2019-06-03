@@ -3,5 +3,6 @@ package Model;
 public enum PLACEABLETYPE
 {
     rock,
-    neon_tetra
+    neon_tetra,
+    wall
 }

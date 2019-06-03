@@ -1,5 +1,6 @@
 import Model.Aquariumable;
 import Model.ClientAquarium;
+import Model.PLACEABLETYPE;
 import Model.PlaceableObject;
 
 import javax.ws.rs.client.Client;
@@ -25,6 +26,7 @@ public class Aquarium implements Aquariumable
         initialFish.place(200,200);
         initialFish.setAquarium(this);
         addFish(initialFish);
+        createBorders();
     }
     public void addFish(Fish fish)
     {
@@ -53,5 +55,22 @@ public class Aquarium implements Aquariumable
         aquarium.setAquariumHeight(aquariumHeight);
         aquarium.setAquariumWidth(aquariumWidth);
         return aquarium;
+    }
+    public void createBorders()
+    {
+        int borderSize =30;
+
+        Decoration leftBorderWall = new Decoration();
+        leftBorderWall.setDimensions(borderSize,aquariumHeight);
+        leftBorderWall.place(0,0);
+        leftBorderWall.setPlaceabletype(PLACEABLETYPE.wall);
+        Decoration rightBorderWall = new Decoration();
+        rightBorderWall.setDimensions(borderSize,aquariumHeight);
+        rightBorderWall.place(aquariumWidth-borderSize,0);
+        rightBorderWall.setPlaceabletype(PLACEABLETYPE.wall);
+
+        objects.add(leftBorderWall);
+        objects.add(rightBorderWall);
+
     }
 }

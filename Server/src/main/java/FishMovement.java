@@ -39,7 +39,7 @@ public class FishMovement
     {
         for (PlaceableObject object:aquarium.getObjects())
         {
-            if(fish.collidesWith(object))
+            if(fish.collidesWith(object)&&!fish.getHitbox().equals(object.getHitbox()))
                 return true;
         }
         return false;

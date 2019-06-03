@@ -1,11 +1,15 @@
 package Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public  class PlaceableObject
 {
 
-    private int xLocation;
-    private int yLocation;
-    protected int size;
+     public int xLocation;
+     public int yLocation;
+     public int width;
+     public int length;
     PLACEABLETYPE placeabletype;
     public void place(int x,int y)
     {
@@ -14,7 +18,7 @@ public  class PlaceableObject
     }
     public int getSize()
     {
-        return size;
+        return width*length;
     }
     public int getX()
     {
@@ -33,7 +37,7 @@ public  class PlaceableObject
     }
     public HitBox getHitbox()
     {
-        return new HitBox(xLocation,yLocation,size);
+        return new HitBox(xLocation,yLocation,width,length);
     }
     public PLACEABLETYPE getPlaceabletype() {
         return placeabletype;

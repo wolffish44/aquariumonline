@@ -2,9 +2,9 @@ import Model.PlaceableObject;
 
 public class Fish extends PlaceableObject
 {
-    public String name;
-    public int speed;
-    public String speciesName;
+    public transient String name;
+    public transient int speed;
+    public  transient String speciesName;
     public transient Aquarium aquarium;
     private transient FishMovement fishMovement;
     public Fish(String speciesName,int speed)
@@ -17,9 +17,10 @@ public class Fish extends PlaceableObject
         this.aquarium=aquarium;
         fishMovement = new FishMovement(this);
     }
-    public void setSize(int size)
+    public void setDimensions(int width,int length)
     {
-        this.size=size;
+        this.width=width;
+        this.length=length;
     }
     public void swim()
     {
