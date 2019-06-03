@@ -21,7 +21,7 @@ public class Aquarium implements Aquariumable
     public Aquarium()
     {
         this.aquariumWidth=700;
-        this.aquariumHeight=700;
+        this.aquariumHeight=500;
         Fish initialFish =FishFactory.createNeonTetra();
         initialFish.place(200,200);
         initialFish.setAquarium(this);
