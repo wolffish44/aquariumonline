@@ -26,7 +26,7 @@ public class Fish extends PlaceableObject
     {
         if(aquarium==null)
             throw new IllegalStateException();
-        fishMovement.swim();
+       this.orientation= fishMovement.swim();
     }
     public void spawn()
     {

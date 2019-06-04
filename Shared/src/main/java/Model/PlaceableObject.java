@@ -1,5 +1,6 @@
 package Model;
 
+import Communication.DIRECTION;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -10,6 +11,7 @@ public  class PlaceableObject
      public int yLocation;
      public int width;
      public int length;
+     public DIRECTION orientation = DIRECTION.right;
     PLACEABLETYPE placeabletype;
     public void place(int x,int y)
     {

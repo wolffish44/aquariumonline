@@ -1,16 +1,17 @@
+import Communication.DIRECTION;
 import Model.PlaceableObject;
 
 public class FishMovement
 {
     Aquarium aquarium;
     Fish fish;
-    Direction directionHeading = Direction.right;
+    DIRECTION directionHeading = DIRECTION.right;
     public FishMovement(Fish fish)
     {
         this.aquarium=fish.aquarium;
         this.fish=fish;
     }
-    public void swim()
+    public DIRECTION swim()
     {
         fish.place(fish.getX()+getNextPositionOffset(),fish.getY());
         if(hasCollided())
@@ -18,20 +19,21 @@ public class FishMovement
             fish.place(fish.getX()-getNextPositionOffset(),fish.getY());
             switchDirection();
         }
+        return directionHeading;
     }
     public void switchDirection()
     {
-        if(directionHeading==Direction.left)
-            directionHeading=Direction.right;
+        if(directionHeading== DIRECTION.left)
+            directionHeading= DIRECTION.right;
         else
-            directionHeading=Direction.left;
+            directionHeading= DIRECTION.left;
     }
     public int getNextPositionOffset()
     {
         int amount =fish.speed;
-        if(directionHeading==Direction.right)
+        if(directionHeading== DIRECTION.right)
             return amount;
-        if(directionHeading==Direction.left)
+        if(directionHeading== DIRECTION.left)
             return -amount;
         return 0;
     }
