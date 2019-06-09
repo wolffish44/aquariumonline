@@ -6,8 +6,9 @@
 <?import javafx.scene.control.ToolBar?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="685.0" prefWidth="833.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.AquariumController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="833.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.AquariumController">
    <children>
+      <Pane fx:id="aquariumPane" layoutX="57.0" layoutY="107.0" prefHeight="500.0" prefWidth="700.0" />
       <ToolBar prefHeight="64.0" prefWidth="833.0">
         <items>
           <Button fx:id="ShopButton" mnemonicParsing="false" onAction="#onShopButtonPressed" prefHeight="26.0" prefWidth="279.0" text="Shop" />
@@ -15,8 +16,8 @@
             <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="261.0" text="Servers" />
         </items>
       </ToolBar>
-      <ToolBar blendMode="SRC_ATOP" layoutX="-2.0" layoutY="521.0" prefHeight="162.0" prefWidth="833.0" />
+      <ToolBar blendMode="SRC_ATOP" layoutY="607.0" prefHeight="193.0" prefWidth="833.0" />
       <ParallelCamera layoutX="97.0" layoutY="107.0" />
-      <Canvas fx:id="aquariumCanvas" height="518.0" layoutX="62.0" layoutY="107.0" width="705.0" />
+      <Canvas fx:id="aquariumCanvas" height="500.0" layoutX="57.0" layoutY="107.0" width="700.0" />
    </children>
 </Pane>

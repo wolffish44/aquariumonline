@@ -9,4 +9,11 @@ public class FishFactory
         neonTetra.setPlaceabletype(PLACEABLETYPE.neon_tetra);
         return neonTetra;
     }
+    public static Fish createAngelFish()
+    {
+        Fish angelfish = new Fish("AngelFish",1);
+        angelfish.setDimensions(80,100);
+        angelfish.setPlaceabletype(PLACEABLETYPE.angel_fish);
+        return angelfish;
+    }
 }

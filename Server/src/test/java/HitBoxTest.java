@@ -14,7 +14,7 @@ class HitBoxTest {
         fish.setDimensions(10,10);
         Fish secondFish=new Fish("Neon Tetra",3);
         secondFish.place(40,40);
-        secondFish.setDimensions(10,10);
+        secondFish.setDimensions(11,10);
         Boolean actualFishesCollided = fish.collidesWith(secondFish);
         Boolean expectedFishesCollided = true;
         assertEquals(expectedFishesCollided,actualFishesCollided);

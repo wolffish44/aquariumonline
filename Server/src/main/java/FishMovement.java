@@ -1,11 +1,14 @@
 import Communication.DIRECTION;
 import Model.PlaceableObject;
 
+import java.util.Random;
+
 public class FishMovement
 {
     Aquarium aquarium;
     Fish fish;
     DIRECTION directionHeading = DIRECTION.right;
+    Random random = new Random();
     public FishMovement(Fish fish)
     {
         this.aquarium=fish.aquarium;
@@ -46,4 +49,5 @@ public class FishMovement
         }
         return false;
     }
+
 }

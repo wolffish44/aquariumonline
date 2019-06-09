@@ -13,6 +13,7 @@ import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
+import javafx.scene.layout.Pane;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -26,6 +27,8 @@ public class AquariumController implements AquariumControllable, Initializable {
     public Button ShopButton;
     @FXML
     public Canvas aquariumCanvas = new Canvas(700,500);
+    @FXML
+    public Pane aquariumPane;
      GraphicsContext graphicsContext ;
      public List<PlaceableObject> objects = new ArrayList<PlaceableObject>();
     final LongProperty lastUpdateTime = new SimpleLongProperty(0);
@@ -35,6 +38,7 @@ public class AquariumController implements AquariumControllable, Initializable {
     }
     public void initialize(URL location, ResourceBundle resources)
     {
+        aquariumPane.setStyle("-fx-background-color: #" + "00FFFF;"+"-fx-opacity: 0.3;");
         clientManager=new ClientManager(this);
         graphicsContext= aquariumCanvas.getGraphicsContext2D();
         new AnimationTimer()
@@ -80,6 +84,14 @@ public class AquariumController implements AquariumControllable, Initializable {
                 }
                 else{
                 img = new Image("neonTetraRight.png", object.width, object.length, false, false);
+                }
+                break;
+            case angel_fish:
+                if(object.orientation== DIRECTION.left) {
+                    img = new Image("maanVisLeft.png", object.width, object.length, false, false);
+                }
+                else{
+                    img = new Image("maanVisRight.png", object.width, object.length, false, false);
                 }
                 break;
             case wall:

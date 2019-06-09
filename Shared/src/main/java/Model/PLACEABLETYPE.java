@@ -4,5 +4,6 @@ public enum PLACEABLETYPE
 {
     rock,
     neon_tetra,
-    wall
+    wall,
+    angel_fish
 }

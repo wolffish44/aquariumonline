@@ -14,5 +14,10 @@ class ClientEndPointTest
        int resultUserId =user.getId();
         assertEquals(expectedUserId,resultUserId);
     }
+    @Test
+    public void postUserIsSuccessful()
+    {
+        clientEndPoint.postUser();
+    }
 
 }

@@ -10,6 +10,9 @@ import java.util.Random;
 
 public class Aquarium implements Aquariumable
 {
+    public List<Decoration> getDecorations() {
+        return decorations;
+    }
     private int aquariumHeight;
     private int aquariumWidth;
     private List<PlaceableObject>objects=new ArrayList<>();
@@ -25,7 +28,7 @@ public class Aquarium implements Aquariumable
         this.aquariumWidth=700;
         this.aquariumHeight=500;
         createBorders();
-        int amountOfFishToSpawn =30;
+        int amountOfFishToSpawn =7;
         int amountOfFishSpawned=0;
         while(amountOfFishSpawned<amountOfFishToSpawn)
         {
@@ -33,6 +36,8 @@ public class Aquarium implements Aquariumable
             spawnFish(newFish);
             amountOfFishSpawned++;
         }
+        Fish newFish =FishFactory.createAngelFish();
+        spawnFish(newFish);
     }
     public void addFish(Fish fish)
     {
@@ -103,5 +108,13 @@ public class Aquarium implements Aquariumable
             }
         }
         return true;
+    }
+    public int getHeight()
+    {
+        return aquariumHeight;
+    }
+    public int getWidth()
+    {
+        return  aquariumWidth;
     }
 }
