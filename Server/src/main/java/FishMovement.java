@@ -40,6 +40,15 @@ public class FishMovement
             return -amount;
         return 0;
     }
+    public int getNextYOffset()
+    {
+        if(fish.getY()>aquarium.getHeight())
+            return -10;
+        if(fish.getY()<0)
+            return 10;
+        int amount =-fish.speed;
+        return amount;
+    }
     private boolean hasCollided()
     {
         for (PlaceableObject object:aquarium.getObjects())
@@ -47,6 +56,7 @@ public class FishMovement
             if(fish.collidesWith(object)&&!fish.getHitbox().equals(object.getHitbox()))
                 return true;
         }
+
         return false;
     }
 

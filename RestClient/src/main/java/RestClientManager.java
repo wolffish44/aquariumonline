@@ -1,3 +1,5 @@
+import Communication.USERCREATIONRESPONSE;
+
 public class RestClientManager implements RestClientManagerable
 {
     User user;
@@ -6,5 +8,9 @@ public class RestClientManager implements RestClientManagerable
     public void loginUser(String username, String password)
     {
       user=clientEndPoint.getUser(username,password);
+    }
+    public USERCREATIONRESPONSE createAccount(UserInfo userInfo)
+    {
+       return clientEndPoint.createAccount(userInfo);
     }
 }

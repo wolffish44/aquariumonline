@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RestController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
    <children>
       <Text fx:id="errorText" fill="RED" layoutX="468.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="117.99999512732029" />
       <TextField fx:id="usernameBox" layoutX="468.0" layoutY="98.0" prefHeight="25.0" prefWidth="118.0" />
@@ -22,5 +22,6 @@
       </ImageView>
       <Button fx:id="loginButton" layoutX="470.0" layoutY="200.0" mnemonicParsing="false" onAction="#onLoginButtonPressed" text="Log in" />
       <PasswordField fx:id="passwordBox" layoutX="468.0" layoutY="159.0" prefHeight="25.0" prefWidth="118.0" />
+      <Button fx:id="createAccountButton" layoutX="470.0" layoutY="238.0" mnemonicParsing="false" onAction="#onCreateAccountButtonPressed" text="Create account" />
    </children>
 </Pane>

@@ -1,14 +1,23 @@
+import Communication.USERCREATIONRESPONSE;
 import com.google.gson.Gson;
+import org.jboss.resteasy.client.jaxrs.ResteasyClient;
+import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
+
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import javax.ws.rs.client.*;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 public class ClientEndPoint implements ClientEndPointable
 {
     Gson gson = new Gson();
     String restServerUrl ="http://localhost:11/RestServer";
     String addFragment ="/add/";
+    ResteasyClient client = new ResteasyClientBuilder().build();
     public User getTestUser()
     {
             String response = executeGetRequest(restServerUrl+"/TestUser");
@@ -31,26 +40,18 @@ public class ClientEndPoint implements ClientEndPointable
             throw new NullPointerException();
         }
     }
-    public String executePostRequest(String urlString)
+
+    public USERCREATIONRESPONSE postUser(UserInfo userInfo)
     {
-        try {
-            URL url = new URL(urlString);
-            HttpURLConnection con = (HttpURLConnection) url.openConnection();
-            con.setRequestMethod("POST");
-            String response=  readResponse(con);
-            return response;
-        }catch (Exception e)
-        {
-            System.out.println(e.getStackTrace().toString());
-            throw new NullPointerException();
-        }
+        WebTarget webTarget = client.target(restServerUrl+"/").path("add");
+        Invocation.Builder invocationBuilder =  webTarget.request(MediaType.APPLICATION_JSON);
+        Response response = invocationBuilder.post(Entity.entity(userInfo, MediaType.APPLICATION_JSON));
+        USERCREATIONRESPONSE generatedResponse =response.readEntity(USERCREATIONRESPONSE.class);
+        return generatedResponse;
     }
-    public void postUser(User user)
-    {
-        String jsonUser =gson.toJson(user);
-        String resultUrl =restServerUrl+addFragment+jsonUser;
-        String result =executePostRequest(resultUrl);
-    }
+
+
+
     public String readResponse( HttpURLConnection con)
     {
         try {
@@ -66,12 +67,17 @@ public class ClientEndPoint implements ClientEndPointable
         }
         catch (Exception e)
         {
-            return "";
+            return "error";
         }
     }
 
     @Override
     public User getUser(String username, String password) {
         return null;
+    }
+
+    @Override
+    public USERCREATIONRESPONSE createAccount(UserInfo Userinfo) {
+        return postUser(Userinfo);
     }
 }
