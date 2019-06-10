@@ -5,6 +5,6 @@ import Model.World;
 public interface Databaseable
 {
      USERCREATIONRESPONSE storeUser(UserInfo user);
-     User getUser(int id);
+     User getUser(UserInfo username);
      World getWorld(int id);
 }

@@ -14,7 +14,7 @@
       <TextField fx:id="usernameBox" layoutX="468.0" layoutY="98.0" prefHeight="25.0" prefWidth="118.0" />
       <Text layoutX="468.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
       <Text layoutX="468.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <Text layoutX="468.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="42.24334716796875" />
+      <Text fx:id="loginFeedbackLabel" layoutX="470.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="95.48241525888443" />
       <ImageView fitHeight="401.0" fitWidth="487.0" layoutX="-35.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@wallpaper.png" />
@@ -23,5 +23,6 @@
       <Button fx:id="loginButton" layoutX="470.0" layoutY="200.0" mnemonicParsing="false" onAction="#onLoginButtonPressed" text="Log in" />
       <PasswordField fx:id="passwordBox" layoutX="468.0" layoutY="159.0" prefHeight="25.0" prefWidth="118.0" />
       <Button fx:id="createAccountButton" layoutX="470.0" layoutY="238.0" mnemonicParsing="false" onAction="#onCreateAccountButtonPressed" text="Create account" />
+      <Text layoutX="478.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="42.24334716796875" />
    </children>
 </Pane>

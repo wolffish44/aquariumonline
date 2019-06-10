@@ -16,8 +16,8 @@ public class JavaDatabase implements Databaseable
     public JavaDatabase()
     {
         User user = new User();
-        user.setUsername("Henk");
-        user.setPassword("MijnHuisdier1");
+        user.setUsername("username");
+        user.setPassword("password");
         user.setId(2);
         storeUser(user);
         List<PLACEABLETYPE> firstWorldObjects= new ArrayList<PLACEABLETYPE>();
@@ -36,22 +36,36 @@ public class JavaDatabase implements Databaseable
     @Override
     public USERCREATIONRESPONSE storeUser(UserInfo user)
     {
-        if(userDatabase.get(user.getUsername())!=null){
-            return USERCREATIONRESPONSE.UNSUCCESSFUl;
+        if(!userDatabase.containsValue(user.getUsername()))
+        {
+            User newUser= new User();
+            newUser.setUsername(user.getUsername());
+            newUser.setPassword(user.getPassword());
+            userDatabase.put(user.getUsername(), newUser);
+            return USERCREATIONRESPONSE.SUCCESSFUL;
         }
-        return USERCREATIONRESPONSE.SUCCESSFUL;
+        return USERCREATIONRESPONSE.UNSUCCESSFUl;
 
     }
 
-    public User getUser(int id)
+
+    public User getUser(UserInfo userInfo)
     {
         try
         {
-            return userDatabase.get(id);
+            User user=userDatabase.get(userInfo.getUsername());
+            if(user.getPassword().equals(userInfo.getPassword()))
+            {
+                return userDatabase.get(userInfo.getUsername());
+            }
+            else
+                {
+                    return null;
+                }
         }
         catch (NullPointerException e)
         {
-            System.out.println("User with id "+id+" could not be found.");
+            System.out.println("User could not be found.");
             throw new NullPointerException();
         }
     }

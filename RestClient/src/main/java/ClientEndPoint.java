@@ -49,6 +49,20 @@ public class ClientEndPoint implements ClientEndPointable
         USERCREATIONRESPONSE generatedResponse =response.readEntity(USERCREATIONRESPONSE.class);
         return generatedResponse;
     }
+    public User loginUser(UserInfo userInfo)
+    {
+        WebTarget webTarget = client.target(restServerUrl+"/").path("login");
+        Invocation.Builder invocationBuilder =  webTarget.request(MediaType.APPLICATION_JSON);
+        Response response = invocationBuilder.post(Entity.entity(userInfo, MediaType.APPLICATION_JSON));
+        try {
+            User generatedResponse = response.readEntity(User.class);
+            return generatedResponse;
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+    }
 
 
 
@@ -71,9 +85,13 @@ public class ClientEndPoint implements ClientEndPointable
         }
     }
 
+
     @Override
-    public User getUser(String username, String password) {
-        return null;
+    public User loginUser(String username, String password) {
+        UserInfo requestedUserInfo = new UserInfo();
+        requestedUserInfo.setUsername(username);
+        requestedUserInfo.setPassword(password);
+       return loginUser(requestedUserInfo);
     }
 
     @Override

@@ -1,6 +1,5 @@
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
 import Communication.USERCREATIONRESPONSE;
 import Model.World;
@@ -9,10 +8,10 @@ import com.google.gson.Gson;
 public class RestServerEndPoint
 {
     Gson gson = new Gson();
-    Databaseable database;
+    Databaseable database=new JavaDatabase();
     public RestServerEndPoint()
     {
-        database=new JavaDatabase();
+
     }
     @Path("/TestUser")
     @GET
@@ -29,11 +28,11 @@ public class RestServerEndPoint
     @Path("/GetUser/{userID}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public String getUser(@PathParam("userID") int userID)
+    public String getUser(@PathParam("userName") String userName)
     {
-      User userFromDatabase= database.getUser(userID);
-      String result=  gson.toJson(userFromDatabase);
-      return result;
+      //User userFromDatabase= database.getUser(userName);
+     // String result=  gson.toJson(userFromDatabase);
+      return null;
     }
     @Path("/GetWorld/{worldID}")
     @GET
@@ -51,6 +50,15 @@ public class RestServerEndPoint
     public USERCREATIONRESPONSE addUser(UserInfo userInfo)
     {
         USERCREATIONRESPONSE userCreationResponse =database.storeUser(userInfo);
+        return userCreationResponse;
+    }
+    @POST
+    @Path("/login")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public User loginUser(UserInfo userInfo)
+    {
+        User userCreationResponse =database.getUser(userInfo);
         return userCreationResponse;
     }
 }
