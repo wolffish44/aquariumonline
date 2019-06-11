@@ -90,6 +90,7 @@ public class Aquarium implements Aquariumable
         int xLocation = random.nextInt(aquariumWidth);
         int yLocation = random.nextInt(aquariumHeight-fish.length);
         fish.place(xLocation,yLocation);
+
         while(!canSpawn(fish))
         {
             xLocation = random.nextInt(aquariumWidth);

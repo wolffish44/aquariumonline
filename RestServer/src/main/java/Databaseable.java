@@ -1,5 +1,10 @@
+import Communication.USERCREATIONRESPONSE;
+import Model.ClientAquarium;
+import Model.World;
+
 public interface Databaseable
 {
-    public void storeUser(User user);
-    public User getUser(int id);
+     USERCREATIONRESPONSE storeUser(UserInfo user);
+     User getUser(UserInfo username);
+     World getWorld(int id);
 }

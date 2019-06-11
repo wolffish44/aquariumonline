@@ -19,4 +19,11 @@ public class RestClient extends Application {
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
+    public void changeScene(String fxml,Stage primaryStage) throws IOException
+    {
+        Parent pane = FXMLLoader.load(
+                getClass().getResource(fxml));
+
+        primaryStage.getScene().setRoot(pane);
+    }
 }

@@ -1,5 +1,5 @@
 import java.sql.*;
-public class DatabaseConnection implements Databaseable
+public class DatabaseConnection
 {
 
     String user ="dbi413407";
@@ -24,13 +24,5 @@ public class DatabaseConnection implements Databaseable
         }
     }
 
-    @Override
-    public void storeUser(User user) {
 
-    }
-
-    @Override
-    public User getUser(int id) {
-        return null;
-    }
 }

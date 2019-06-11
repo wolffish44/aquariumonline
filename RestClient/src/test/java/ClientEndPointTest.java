@@ -1,3 +1,4 @@
+import Communication.USERCREATIONRESPONSE;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,7 +18,11 @@ class ClientEndPointTest
     @Test
     public void postUserIsSuccessful()
     {
-        clientEndPoint.postUser(new User());
+       UserInfo userInfo= new UserInfo();
+       userInfo.setUsername("martin");
+       userInfo.setPassword("nitram");
+        USERCREATIONRESPONSE usercreationresponse =clientEndPoint.postUser(userInfo);
+        int x =211;
     }
 
 }
