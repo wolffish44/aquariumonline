@@ -2,6 +2,18 @@ import Model.PLACEABLETYPE;
 
 public class FishFactory
 {
+    public static Fish createFish(PLACEABLETYPE type)
+    {
+        switch (type)
+        {
+            case neon_tetra:
+                return createNeonTetra();
+            case angel_fish:
+                return createAngelFish();
+            default:
+                return createNeonTetra();
+        }
+    }
     public static Fish createNeonTetra()
     {
         Fish neonTetra = new Fish("Neon Tetra",1);

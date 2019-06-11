@@ -17,7 +17,7 @@ class ClientEndPointTest
     @Test
     public void postUserIsSuccessful()
     {
-        clientEndPoint.postUser();
+        clientEndPoint.postUser(new User());
     }
 
 }

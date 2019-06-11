@@ -32,11 +32,11 @@ public class Aquarium implements Aquariumable
         int amountOfFishSpawned=0;
         while(amountOfFishSpawned<amountOfFishToSpawn)
         {
-            Fish newFish =FishFactory.createNeonTetra();
+            Fish newFish =FishFactory.createFish(PLACEABLETYPE.neon_tetra);
             spawnFish(newFish);
             amountOfFishSpawned++;
         }
-        Fish newFish =FishFactory.createAngelFish();
+        Fish newFish =FishFactory.createFish(PLACEABLETYPE.angel_fish);
         spawnFish(newFish);
     }
     public void addFish(Fish fish)
