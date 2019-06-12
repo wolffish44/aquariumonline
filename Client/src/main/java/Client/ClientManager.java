@@ -19,4 +19,15 @@ public class ClientManager implements ClientManagerable
     {
         controller.updateObjects(aquariumable.getObjects());
     }
+
+    @Override
+    public void dropFood(int xposition)
+    {
+
+    }
+
+    public void dropFood()
+    {
+
+    }
 }

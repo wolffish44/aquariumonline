@@ -14,13 +14,10 @@ public class GameManager
     }
     public void startGame()
     {
-        Runnable task = () -> {
-            String threadName = Thread.currentThread().getName();
-            System.out.println("Started new game thread");
-            startUpdatingGame();
-        };
+
         Thread thread = new Thread(task);
         thread.start();
+
     }
     public void startUpdatingGame()
     {
@@ -39,4 +36,9 @@ public class GameManager
         }
         serverEndPointable.updateAquarium(aquarium.toClientAquarium());
     }
+    Runnable task = () -> {
+        String threadName = Thread.currentThread().getName();
+        System.out.println("Started new game thread");
+        startUpdatingGame();
+    };
 }

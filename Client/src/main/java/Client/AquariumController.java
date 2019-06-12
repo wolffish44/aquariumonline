@@ -7,12 +7,15 @@ import javafx.animation.AnimationTimer;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.SimpleLongProperty;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 
 import java.net.URL;
@@ -29,6 +32,8 @@ public class AquariumController implements AquariumControllable, Initializable {
     public Canvas aquariumCanvas = new Canvas(700,500);
     @FXML
     public Pane aquariumPane;
+    @FXML
+    public ImageView foodBar;
      GraphicsContext graphicsContext ;
      public List<PlaceableObject> objects = new ArrayList<PlaceableObject>();
     final LongProperty lastUpdateTime = new SimpleLongProperty(0);
@@ -53,6 +58,7 @@ public class AquariumController implements AquariumControllable, Initializable {
                 }
             }
         }.start();
+        initHover();
     }
     public void onShopButtonPressed(ActionEvent actionEvent) {
     }
@@ -102,5 +108,31 @@ public class AquariumController implements AquariumControllable, Initializable {
         }
 
         return img;
+    }
+    public void initHover() {
+        foodBar.addEventHandler(MouseEvent.MOUSE_ENTERED,
+                new EventHandler<MouseEvent>() {
+                    @Override
+                    public void handle(MouseEvent e) {
+                        foodBar.setImage(new Image("foodbarHover.png"));
+                    }
+                });
+
+        foodBar.addEventHandler(MouseEvent.MOUSE_EXITED,
+                new EventHandler<MouseEvent>() {
+                    @Override
+                    public void handle(MouseEvent e) {
+                        foodBar.setImage(new Image("foodbarDefault.png"));
+                    }
+                });
+        foodBar.addEventHandler(MouseEvent.MOUSE_CLICKED,
+                new EventHandler<MouseEvent>() {
+                    @Override
+                    public void handle(MouseEvent e) {
+                        int xposition=(int)e.getX();
+                        clientManager.dropFood(xposition);
+                    }
+                });
+
     }
 }
