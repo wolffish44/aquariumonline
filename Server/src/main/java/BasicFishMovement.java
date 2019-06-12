@@ -31,7 +31,7 @@ public class BasicFishMovement extends FishMovement
     }
     public int getNextPositionOffset()
     {
-        int amount =fish.speed;
+        int amount=random.nextInt(fish.speed+1);
         if(directionHeading== DIRECTION.right)
             return amount;
         if(directionHeading== DIRECTION.left)

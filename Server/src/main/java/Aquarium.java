@@ -3,7 +3,6 @@ import Model.ClientAquarium;
 import Model.PLACEABLETYPE;
 import Model.PlaceableObject;
 
-import javax.ws.rs.client.Client;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -17,8 +16,10 @@ public class Aquarium implements Aquariumable
     private int aquariumWidth;
     private List<PlaceableObject>objects=new ArrayList<>();
     private transient List<Fish>fishes = new ArrayList<>();
+    private transient List<Food>foods = new ArrayList<>();
     private List<Decoration>decorations= new ArrayList<>();
     private transient Random random = new Random();
+    public  int gravity =1;
     public List<PlaceableObject> getObjects()
     {
         return objects;
@@ -28,7 +29,7 @@ public class Aquarium implements Aquariumable
         this.aquariumWidth=700;
         this.aquariumHeight=500;
         createBorders();
-        int amountOfFishToSpawn =7;
+        int amountOfFishToSpawn =1;
         int amountOfFishSpawned=0;
         while(amountOfFishSpawned<amountOfFishToSpawn)
         {
@@ -43,6 +44,13 @@ public class Aquarium implements Aquariumable
     {
         objects.add(fish);
         fishes.add(fish);
+    }
+    public void spawnFood(int xLocation)
+    {
+        Food newFood =new Food(this);
+        newFood.place(xLocation,0);
+        objects.add(newFood);
+        foods.add(newFood);
     }
     public void addDecoration(Decoration decoration)
     {
@@ -84,6 +92,18 @@ public class Aquarium implements Aquariumable
         objects.add(rightBorderWall);
 
     }
+    public void updateObjects()
+    {
+        for (Fish fish:this.getFishes())
+        {
+            fish.swim();
+        }
+        for (Food fishFood:foods)
+        {
+            fishFood.fall();
+        }
+        dumpObjects();
+    }
     public void spawnFish(Fish fish)
     {
 
@@ -117,5 +137,13 @@ public class Aquarium implements Aquariumable
     public int getWidth()
     {
         return  aquariumWidth;
+    }
+    private void dumpObjects()
+    {
+        for (int i=0;i<objects.size();i++)
+        {
+            if(objects.get(i).isDeleted())
+            objects.remove(i);
+        }
     }
 }

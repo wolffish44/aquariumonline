@@ -23,7 +23,7 @@ public class ClientManager implements ClientManagerable
     @Override
     public void dropFood(int xposition)
     {
-
+        clientEndPointable.sendDropFoodRequest(xposition);
     }
 
     public void dropFood()

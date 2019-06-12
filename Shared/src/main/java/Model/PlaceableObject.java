@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public  class PlaceableObject
 {
-
+     private boolean isDeleted =false;
      public int xLocation;
      public int yLocation;
      public int width;
@@ -47,6 +47,14 @@ public  class PlaceableObject
 
     public void setPlaceabletype(PLACEABLETYPE placeabletype) {
         this.placeabletype = placeabletype;
+    }
+    public void delete()
+    {
+        this.isDeleted=true;
+    }
+    public boolean isDeleted()
+    {
+        return isDeleted;
     }
 
 }

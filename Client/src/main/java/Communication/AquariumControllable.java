@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface AquariumControllable
 {
-    public void updateObjects(List<PlaceableObject> objects);
+   void updateObjects(List<PlaceableObject> objects);
+
 }

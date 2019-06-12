@@ -103,6 +103,9 @@ public class AquariumController implements AquariumControllable, Initializable {
             case wall:
                  img = new Image("wall.png",object.width,object.length,false,false);
                  break;
+            case fish_food:
+                img = new Image("fishFood.png",object.width,object.length,false,false);
+                break;
              default:
                  return  new Image("unknown.png",object.width,object.length,false,false);
         }

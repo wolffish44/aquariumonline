@@ -6,4 +6,6 @@ import java.util.List;
 public interface ServerEndPointable
 {
     public void updateAquarium(ClientAquarium aquarium);
+     void setManager( GameManager manager);
+
 }

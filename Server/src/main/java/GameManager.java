@@ -1,39 +1,34 @@
-import Model.PlaceableObject;
-
-import java.util.List;
-
 public class GameManager
 {
     int frameSpeed = 20;
     Aquarium aquarium = new Aquarium();
     ServerEndPointable serverEndPointable = new ServerEndPoint();
+    Thread thread;
+    public boolean isUpdating =true;
     public GameManager()
     {
-      //  this.serverEndPointable= serverEndPointable;
+        serverEndPointable.setManager(this);
         startGame();
     }
     public void startGame()
     {
 
-        Thread thread = new Thread(task);
+        thread = new Thread(task);
         thread.start();
 
     }
     public void startUpdatingGame()
     {
-        while(true) {
-            if (System.currentTimeMillis() % 100 == 0) {
-                moveFishes();
+        while(isUpdating) {
+            if (System.currentTimeMillis() % 70 == 0) {
+                updateGame();
             }
         }
 
     }
-    private void moveFishes()
+    private void updateGame()
     {
-        for (Fish fish:aquarium.getFishes())
-        {
-            fish.swim();
-        }
+        aquarium.updateObjects();
         serverEndPointable.updateAquarium(aquarium.toClientAquarium());
     }
     Runnable task = () -> {
@@ -41,4 +36,9 @@ public class GameManager
         System.out.println("Started new game thread");
         startUpdatingGame();
     };
+
+    public void placeFood(int xLocation)
+    {
+        aquarium.spawnFood(xLocation);
+    }
 }

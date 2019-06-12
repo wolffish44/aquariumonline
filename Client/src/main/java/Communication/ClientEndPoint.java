@@ -8,10 +8,7 @@ import Model.PlaceableObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 
-import javax.websocket.ClientEndpoint;
-import javax.websocket.ContainerProvider;
-import javax.websocket.OnMessage;
-import javax.websocket.WebSocketContainer;
+import javax.websocket.*;
 import javax.ws.rs.client.Client;
 import java.lang.reflect.Array;
 import java.net.URI;
@@ -25,6 +22,7 @@ public class ClientEndPoint implements ClientEndPointable
     public Gson gson = new Gson();
     ClientManagerable clientManager ;
     ObjectMapper mapper = new ObjectMapper();
+    private Session serverSession;
     ClientAquarium aquarium = new ClientAquarium();
     public ClientEndPoint(ClientManager clientManagerable)
     {
@@ -34,7 +32,7 @@ public class ClientEndPoint implements ClientEndPointable
             System.out.println("[WebSocket Client start]");
             try {
                 WebSocketContainer container = ContainerProvider.getWebSocketContainer();
-                container.connectToServer(this, new URI("ws://localhost:10/game/"));
+                serverSession =container.connectToServer(this, new URI("ws://localhost:10/game/"));
 
             } catch (Exception e) {
                 System.out.println("Failed to connect to server...");
@@ -85,6 +83,14 @@ public class ClientEndPoint implements ClientEndPointable
             aquarium.setAquariumHeight(aquariumHeight);
             aquarium.setAquariumWidth(aquariumWidth);
             clientManager.updateAquarium(aquarium);
+        }
+        public void sendDropFoodRequest(int xLocation)
+        {
+            ClientResponse response = new ClientResponse();
+            response.setClientResponseType(CLIENTRESPONSETYPE.place_food);
+            response.setParameter(new Integer(xLocation));
+            String messageToJson =gson.toJson(response);
+            serverSession.getAsyncRemote().sendText(messageToJson);
         }
 
 
