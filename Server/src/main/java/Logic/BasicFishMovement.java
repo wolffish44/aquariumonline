@@ -9,7 +9,7 @@ public class BasicFishMovement extends FishMovement
 {
 
     DIRECTION directionHeading = DIRECTION.right;
-    Random random = new Random();
+    Random random = new Random(1);
     public BasicFishMovement(Fish fish){super (fish);}
     {
 

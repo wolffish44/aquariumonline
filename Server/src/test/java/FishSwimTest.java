@@ -12,7 +12,7 @@ public class FishSwimTest
         fish.setAquarium(aquarium);
         fish.place(100,100);
         fish.swim();
-       assertEquals(110,fish.getX());
+       assertEquals(104,fish.getX());
     }
 
 }
