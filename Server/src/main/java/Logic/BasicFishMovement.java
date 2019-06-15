@@ -1,3 +1,5 @@
+package Logic;
+
 import Communication.DIRECTION;
 import Model.PlaceableObject;
 

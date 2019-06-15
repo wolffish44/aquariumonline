@@ -1,7 +1,11 @@
+package Server;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 import Communication.USERCREATIONRESPONSE;
+import DAL.Databaseable;
+import DAL.MsDatabase;
 import Model.World;
 import Users.User;
 import Users.UserInfo;
@@ -10,7 +14,7 @@ import com.google.gson.Gson;
 public class RestServerEndPoint
 {
     Gson gson = new Gson();
-    Databaseable database=new JavaDatabase();
+    Databaseable database=new MsDatabase();
     public RestServerEndPoint()
     {
 
@@ -21,7 +25,7 @@ public class RestServerEndPoint
     public String returnUser()
     {
         User dummyUser = new User();
-        dummyUser.setId(1);
+        dummyUser.setScore(1);
         dummyUser.setUsername("example username");
         dummyUser.setPassword("example password");
         String result =gson.toJson(dummyUser);
@@ -51,7 +55,7 @@ public class RestServerEndPoint
     @Produces(MediaType.APPLICATION_JSON)
     public USERCREATIONRESPONSE addUser(UserInfo userInfo)
     {
-        USERCREATIONRESPONSE userCreationResponse =database.storeUser(userInfo);
+        USERCREATIONRESPONSE userCreationResponse =database.createUser(userInfo);
         return userCreationResponse;
     }
     @POST

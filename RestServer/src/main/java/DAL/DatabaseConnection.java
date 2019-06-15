@@ -1,3 +1,5 @@
+package DAL;
+
 import java.sql.*;
 public class DatabaseConnection
 {
@@ -14,7 +16,8 @@ public class DatabaseConnection
     {
 
         try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            DriverManager.registerDriver(new com.microsoft.sqlserver.jdbc.SQLServerDriver());
+        //    Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             Connection con = DriverManager.getConnection(link,user,password);
             currentConnection=con;
         }

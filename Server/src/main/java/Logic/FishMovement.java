@@ -1,6 +1,6 @@
-import Communication.DIRECTION;
+package Logic;
 
-import java.util.Random;
+import Communication.DIRECTION;
 
 public abstract class FishMovement
 {

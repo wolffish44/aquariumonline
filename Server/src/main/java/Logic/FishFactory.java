@@ -1,3 +1,5 @@
+package Logic;
+
 import Model.PLACEABLETYPE;
 
 public class FishFactory

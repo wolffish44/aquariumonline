@@ -1,3 +1,5 @@
+package DAL;
+
 import Communication.USERCREATIONRESPONSE;
 import Model.PLACEABLETYPE;
 import Model.World;
@@ -19,7 +21,7 @@ public class JavaDatabase implements Databaseable
         User user = new User();
         user.setUsername("username");
         user.setPassword("password");
-        user.setId(2);
+        user.setScore(2);
         storeUser(user);
         List<PLACEABLETYPE> firstWorldObjects= new ArrayList<PLACEABLETYPE>();
         firstWorldObjects.add(PLACEABLETYPE.neon_tetra);
@@ -35,7 +37,7 @@ public class JavaDatabase implements Databaseable
     }
 
     @Override
-    public USERCREATIONRESPONSE storeUser(UserInfo user)
+    public USERCREATIONRESPONSE createUser(UserInfo user)
     {
         if(!userDatabase.containsValue(user.getUsername()))
         {
@@ -46,6 +48,11 @@ public class JavaDatabase implements Databaseable
             return USERCREATIONRESPONSE.SUCCESSFUL;
         }
         return USERCREATIONRESPONSE.UNSUCCESSFUl;
+
+    }
+
+    @Override
+    public void updateUser(User user) {
 
     }
 

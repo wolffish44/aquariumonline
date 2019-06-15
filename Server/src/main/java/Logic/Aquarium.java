@@ -1,3 +1,5 @@
+package Logic;
+
 import Model.Aquariumable;
 import Model.ClientAquarium;
 import Model.PLACEABLETYPE;

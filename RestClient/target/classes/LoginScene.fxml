@@ -10,19 +10,19 @@
 
 <Pane maxHeight="1024" maxWidth="1024" minHeight="400" minWidth="600" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
    <children>
-      <Text fx:id="errorText" fill="RED" layoutX="468.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="117.99999512732029" />
-      <TextField fx:id="usernameBox" layoutX="468.0" layoutY="98.0" prefHeight="25.0" prefWidth="118.0" />
+      <Text fx:score="errorText" fill="RED" layoutX="468.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="117.99999512732029" />
+      <TextField fx:score="usernameBox" layoutX="468.0" layoutY="98.0" prefHeight="25.0" prefWidth="118.0" />
       <Text layoutX="468.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
       <Text layoutX="468.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <Text fx:id="loginFeedbackLabel" layoutX="470.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="95.48241525888443" />
+      <Text fx:score="loginFeedbackLabel" layoutX="470.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="95.48241525888443" />
       <ImageView fitHeight="401.0" fitWidth="487.0" layoutX="-35.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@wallpaper.png" />
          </image>
       </ImageView>
-      <Button fx:id="loginButton" layoutX="470.0" layoutY="200.0" mnemonicParsing="false" onAction="#onLoginButtonPressed" text="Log in" />
-      <PasswordField fx:id="passwordBox" layoutX="468.0" layoutY="159.0" prefHeight="25.0" prefWidth="118.0" />
-      <Button fx:id="createAccountButton" layoutX="470.0" layoutY="238.0" mnemonicParsing="false" onAction="#onCreateAccountButtonPressed" text="Create account" />
+      <Button fx:score="loginButton" layoutX="470.0" layoutY="200.0" mnemonicParsing="false" onAction="#onLoginButtonPressed" text="Log in" />
+      <PasswordField fx:score="passwordBox" layoutX="468.0" layoutY="159.0" prefHeight="25.0" prefWidth="118.0" />
+      <Button fx:score="createAccountButton" layoutX="470.0" layoutY="238.0" mnemonicParsing="false" onAction="#onCreateAccountButtonPressed" text="Create account" />
       <Text layoutX="478.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="42.24334716796875" />
    </children>
 </Pane>

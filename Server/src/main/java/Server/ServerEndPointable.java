@@ -1,7 +1,7 @@
-import Model.ClientAquarium;
-import Model.PlaceableObject;
+package Server;
 
-import java.util.List;
+import Game.GameManager;
+import Model.ClientAquarium;
 
 public interface ServerEndPointable
 {

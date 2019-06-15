@@ -1,3 +1,5 @@
+package Logic;
+
 import Model.PlaceableObject;
 
 public class Decoration extends PlaceableObject

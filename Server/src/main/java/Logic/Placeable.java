@@ -1,3 +1,5 @@
+package Logic;
+
 public interface Placeable
 {
     public void place(int x,int y);

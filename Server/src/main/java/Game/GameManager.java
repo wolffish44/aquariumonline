@@ -1,3 +1,9 @@
+package Game;
+
+import Logic.Aquarium;
+import Server.ServerEndPoint;
+import Server.ServerEndPointable;
+
 public class GameManager
 {
     int frameSpeed = 20;

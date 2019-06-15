@@ -8,7 +8,7 @@ class GameManagerTest
     @Test
     public void testGameManager()
     {
-     //   GameManager manager = new GameManager();
+     //   Game.GameManager manager = new Game.GameManager();
        // manager.updateGame();
     }
 }

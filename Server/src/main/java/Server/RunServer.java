@@ -1,3 +1,6 @@
+package Server;
+
+import Game.GameManager;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.servlet.ServletContextHandler;
