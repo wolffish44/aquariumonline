@@ -2,41 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b70644-67be-46e1-840a-7dbcf6a35146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/src/test/java/FishfoodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/Communication/AquariumControllable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Communication/AquariumControllable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPointable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPointable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Client/AquariumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Client/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Client/ClientManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/target/classes/Communication/ClientEndPoint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Communication/ClientEndPoint$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/target/classes/Communication/ClientEndPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Communication/ClientEndPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/Communication/ClientEndPointable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/Communication/ClientEndPointable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Aquarium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Aquarium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/BasicFishMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/BasicFishMovement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/GameManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/ServerEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/ServerEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/ServerEndPointable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/ServerEndPointable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/Aquarium.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/Aquarium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/GameManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/RunServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/RunServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/classes/ServerEndPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/classes/ServerEndPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/Communication/CLIENTRESPONSETYPE.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/Communication/CLIENTRESPONSETYPE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/Communication/ClientResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/Communication/ClientResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/Model/PLACEABLETYPE.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/Model/PLACEABLETYPE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/Model/PlaceableObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/Model/PlaceableObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/target/classes/Communication/CLIENTRESPONSETYPE.class" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/target/classes/Communication/CLIENTRESPONSETYPE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/target/classes/Communication/ClientResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/target/classes/Communication/ClientResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/target/classes/Model/PLACEABLETYPE.class" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/target/classes/Model/PLACEABLETYPE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/ClientEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/ClientEndPointable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientEndPointable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/CreateAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/CreateAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/RestClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/java/RestClientManagerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManagerable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/resources/CreateAccountScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/resources/CreateAccountScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/resources/LoginScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/resources/LoginScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/main/resources/wallpaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/resources/wallpaper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/src/test/java/ClientEndPointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestClient/src/test/java/ClientEndPointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/ClientEndPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/ClientEndPointable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/CreateAccountController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/CreateAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/RestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/RestClientManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestClient/target/classes/RestClientManagerable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServer/src/main/java/Databaseable.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestServer/src/main/java/Databaseable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServer/src/main/java/JavaDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestServer/src/main/java/JavaDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServer/src/main/java/RestServerEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestServer/src/main/java/RestServerEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServer/target/classes/Databaseable.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestServer/target/classes/Databaseable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServer/target/classes/JavaDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestServer/target/classes/JavaDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestServer/target/classes/RestServerEndPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestServer/target/classes/RestServerEndPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestShared/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestShared/src/main/java/Users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestShared/src/main/java/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestShared/src/main/java/Users/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestShared/target/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestShared/target/classes/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,19 +82,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/FishFactory.java">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/Food.java">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,82 +103,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/ServerEndPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/RunServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/Aquarium.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="998">
-              <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Communication/ServerResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/GameManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/FishMovement.java">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/AquariumControllable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/BasicFishMovement.java">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,10 +140,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/src/main/java/Fish.java">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPointable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientEndPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientEndPointable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="121" column="19" lean-forward="true" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/ClientManagerable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -221,13 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shared/src/main/java/Model/Aquarium.java" />
-        <option value="$PROJECT_DIR$/Shared/src/main/java/Model/ClientAquarium.java" />
-        <option value="$PROJECT_DIR$/Server/src/test/java/FishSwimTest.java" />
-        <option value="$PROJECT_DIR$/Server/src/main/java/Decoration.java" />
-        <option value="$PROJECT_DIR$/Shared/src/main/java/Model/HitBox.java" />
-        <option value="$PROJECT_DIR$/Client/src/main/resources/aquarium.fxml" />
-        <option value="$PROJECT_DIR$/Client/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/Shared/src/main/java/Communication/Orientation.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/Direction.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/DIRECTION.java" />
@@ -262,8 +254,6 @@
         <option value="$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPoint.java" />
         <option value="$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPointable.java" />
         <option value="$PROJECT_DIR$/Client/src/main/java/Communication/AquariumControllable.java" />
-        <option value="$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java" />
-        <option value="$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/RunServer.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/ServerEndPointable.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/ServerEndPoint.java" />
@@ -272,8 +262,23 @@
         <option value="$PROJECT_DIR$/Server/src/main/java/Food.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/GameManager.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/BasicFishMovement.java" />
+        <option value="$PROJECT_DIR$/RestClient/src/main/java/LoginController.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManagerable.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManager.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/LoginClient/ClientEndPoint.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/LoginClient/ClientEndPointable.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/LoginClient/CreateAccountController.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/LoginClient/LoginController.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -286,52 +291,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -339,205 +345,103 @@
               <item name="Communication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="RestClient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="RestClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="RestClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="RestServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="RestShared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="RestShared" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="RestShared" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="RestShared" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
+              <item name="aquariumonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquariumonline" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aquariumonlineend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aquariumonlineend" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560354564471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560593489764" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Server/src/test/java" />
@@ -554,17 +458,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Martin\IdeaProjects\AquariumOnlineProject\RestClient\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Martin\IdeaProjects\AquariumOnlineProject\Client\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\win 10\IdeaProjects\aquariumonline\Client\src\main\resources" />
+      <recent name="C:\Users\Martin\IdeaProjects\AquariumOnlineProject\RestClient\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -579,7 +484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.RestClient">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="Client" />
@@ -588,8 +493,8 @@
       </method>
     </configuration>
     <configuration name="RestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestClient" />
-      <module name="RestClient" />
+      <option name="MAIN_CLASS_NAME" value="LoginClient.RestClient" />
+      <module name="Client" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -626,11 +531,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.RunServer" />
         <item itemvalue="Application.RestClient" />
-        <item itemvalue="JUnit.DatabaseConnectionTest" />
+        <item itemvalue="Application.RunServer" />
         <item itemvalue="Application.RunRestServer" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.DatabaseConnectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -701,9 +606,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20747218" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20906201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -711,9 +615,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3281372" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7547695" visible="true" weight="0.23772408" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48847377" weight="0.40296182" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.3281372" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7535771" weight="0.23772408" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4880763" weight="0.40296182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3512748" />
@@ -721,15 +625,15 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Tool Output" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24523053" side_tool="true" visible="true" weight="0.23772408" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49880764" weight="0.335152" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.24642289" side_tool="true" visible="true" weight="0.23772408" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49841017" weight="0.335152" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="ANTLR Preview" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3298887" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.31073827" />
@@ -747,7 +651,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/RestClient/src/test/java/ClientEndPointTest.java</url>
-          <line>9</line>
+          <line>11</line>
           <properties class="ClientEndPointTest" method="clientConnectionIsSuccessful">
             <option name="EMULATED" value="true" />
           </properties>
@@ -766,40 +670,10 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RestClient/src/main/java/LoginController.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RestClient/src/main/java/LoginController.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RestClient/src/main/java/LoginController.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Server/src/main/java/Aquarium.java</url>
-          <line>52</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java</url>
-          <line>134</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java</url>
-          <line>135</line>
-          <properties />
-          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -811,86 +685,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Client/src/main/resources/fishFood.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/test/java/FishfoodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestServer/src/main/java/Databaseable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestServer/src/main/java/DatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestServer/src/main/java/RestServerEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Model/FoodPlacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Model/HitBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/ClientManagerable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPointable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Communication/USERCREATIONRESPONSE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/common/events/annotated/CallableMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -998,61 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/AquariumControllable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="135" column="56" selection-start-line="135" selection-start-column="56" selection-end-line="135" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestClient/src/main/java/CreateAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestClient/src/main/java/ClientEndPointable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestClient/src/main/java/ClientEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Communication/DIRECTION.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1122,36 +861,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Communication/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/Aquarium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
-          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/BasicFishMovement.java" />
     <entry file="file://$PROJECT_DIR$/Server/src/main/java/FishFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/main/java/ServerEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="697">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1160,7 +891,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/main/java/RunServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="442">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1168,21 +899,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/GameManager.java">
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/Aquarium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="1802">
+          <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
           <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/Food.java">
+    <entry file="file://$PROJECT_DIR$/Shared/src/main/java/Communication/ServerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/main/java/FishMovement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1196,20 +940,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/FishMovement.java">
+    <entry file="file://$PROJECT_DIR$/Client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestShared/src/main/java/Users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestShared/src/main/java/Users/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManagerable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/main/java/BasicFishMovement.java">
+    <entry file="file://$PROJECT_DIR$/Client/src/main/resources/CreateAccountScene.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="24" column="91" lean-forward="true" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="1773" selection-start-line="1773" selection-end-line="1773" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/CreateAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/ClientManagerable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPointable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/LoginClient/RestClientEndPointable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/AquariumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="121" column="19" lean-forward="true" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Client/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/AquariumControllable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/Communication/ClientEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1256,7 +1139,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8.0_201</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1268,7 +1151,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>RestClient</last-edited>
+          <last-edited>Client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

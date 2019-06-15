@@ -1,4 +1,8 @@
+package LoginClient;
+
 import Communication.USERCREATIONRESPONSE;
+import Users.User;
+import Users.UserInfo;
 
 public interface RestClientManagerable
 {

@@ -2,15 +2,14 @@ package Communication;
 
 import Client.ClientManager;
 import Client.ClientManagerable;
-import Model.Aquariumable;
+import LoginClient.UserManager;
 import Model.ClientAquarium;
 import Model.PlaceableObject;
+import Users.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 
 import javax.websocket.*;
-import javax.ws.rs.client.Client;
-import java.lang.reflect.Array;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -87,6 +86,7 @@ public class ClientEndPoint implements ClientEndPointable
         public void sendDropFoodRequest(int xLocation)
         {
             ClientResponse response = new ClientResponse();
+            User clientUser = UserManager.currentUser;
             response.setClientResponseType(CLIENTRESPONSETYPE.place_food);
             response.setParameter(new Integer(xLocation));
             String messageToJson =gson.toJson(response);

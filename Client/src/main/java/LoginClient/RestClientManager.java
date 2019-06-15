@@ -1,9 +1,13 @@
+package LoginClient;
+
 import Communication.USERCREATIONRESPONSE;
+import Users.User;
+import Users.UserInfo;
 
 public class RestClientManager implements RestClientManagerable
 {
     User user;
-    ClientEndPointable clientEndPoint = new ClientEndPoint();
+    RestClientEndPointable clientEndPoint = new RestClientEndPoint();
     @Override
     public User loginUser(String username, String password)
     {

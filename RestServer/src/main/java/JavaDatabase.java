@@ -1,8 +1,9 @@
 import Communication.USERCREATIONRESPONSE;
 import Model.PLACEABLETYPE;
 import Model.World;
+import Users.User;
+import Users.UserInfo;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -65,7 +66,7 @@ public class JavaDatabase implements Databaseable
         }
         catch (NullPointerException e)
         {
-            System.out.println("User could not be found.");
+            System.out.println("Users.User could not be found.");
             throw new NullPointerException();
         }
     }

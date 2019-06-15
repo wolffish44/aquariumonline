@@ -1,10 +1,12 @@
+package LoginClient;
+
+import Users.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
@@ -37,24 +39,21 @@ public class LoginController implements Initializable
         String password = passwordBox.getText();
         currentUser =  manager.loginUser(username,password);
         showLoginInfo();
-        String test="x";
     }
 
     public void onLoginButtonPressed(ActionEvent actionEvent)
     {
         loginUser();
+        if(currentUser.getUsername().length()>1)
+        {
+            UserManager.currentUser=currentUser;
+            loadScene("/aquarium.fxml");
+        }
     }
 
     public void onCreateAccountButtonPressed(ActionEvent actionEvent)
     {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("CreateAccountScene.fxml"));
-            Stage stage = (Stage) usernameBox.getScene().getWindow();
-            Scene scene = new Scene(loader.load());
-            stage.setScene(scene);
-        }catch (IOException io){
-            io.printStackTrace();
-        }
+        loadScene("/CreateAccountScene.fxml");
     }
     public void showLoginInfo()
     {
@@ -66,5 +65,16 @@ public class LoginController implements Initializable
             {
                 loginFeedbackLabel.setText("password/username incorrect!");
             }
+    }
+    public void loadScene(String name)
+    {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(name));
+            Stage stage = (Stage) usernameBox.getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+        }catch (IOException io){
+            io.printStackTrace();
+        }
     }
 }

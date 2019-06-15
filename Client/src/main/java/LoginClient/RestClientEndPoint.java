@@ -1,4 +1,8 @@
+package LoginClient;
+
 import Communication.USERCREATIONRESPONSE;
+import Users.User;
+import Users.UserInfo;
 import com.google.gson.Gson;
 import org.jboss.resteasy.client.jaxrs.ResteasyClient;
 import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
@@ -12,7 +16,7 @@ import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-public class ClientEndPoint implements ClientEndPointable
+public class RestClientEndPoint implements RestClientEndPointable
 {
     Gson gson = new Gson();
     String restServerUrl ="http://localhost:11/RestServer";
@@ -21,7 +25,7 @@ public class ClientEndPoint implements ClientEndPointable
     public User getTestUser()
     {
             String response = executeGetRequest(restServerUrl+"/TestUser");
-            User generatedUser =gson.fromJson(response,User.class);
+            User generatedUser =gson.fromJson(response, User.class);
             return generatedUser;
 
     }

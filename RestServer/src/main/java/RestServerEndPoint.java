@@ -3,6 +3,8 @@ import javax.ws.rs.core.MediaType;
 
 import Communication.USERCREATIONRESPONSE;
 import Model.World;
+import Users.User;
+import Users.UserInfo;
 import com.google.gson.Gson;
 @Path("/RestServer")
 public class RestServerEndPoint
@@ -30,7 +32,7 @@ public class RestServerEndPoint
     @Produces(MediaType.APPLICATION_JSON)
     public String getUser(@PathParam("userName") String userName)
     {
-      //User userFromDatabase= database.getUser(userName);
+      //Users.User userFromDatabase= database.getUser(userName);
      // String result=  gson.toJson(userFromDatabase);
       return null;
     }

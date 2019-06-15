@@ -1,4 +1,6 @@
 import Communication.USERCREATIONRESPONSE;
+import Users.User;
+import Users.UserInfo;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

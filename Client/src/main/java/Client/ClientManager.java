@@ -4,11 +4,14 @@ import Communication.AquariumControllable;
 import Communication.ClientEndPoint;
 import Communication.ClientEndPointable;
 import Model.Aquariumable;
+import Users.User;
 
 public class ClientManager implements ClientManagerable
 {
     ClientEndPointable clientEndPointable;
     AquariumControllable controller;
+
+    User currentUser;
     public ClientManager(AquariumControllable controller)
     {
         this.controller=controller;

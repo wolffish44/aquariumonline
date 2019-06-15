@@ -1,4 +1,7 @@
+package LoginClient;
+
 import Communication.USERCREATIONRESPONSE;
+import Users.UserInfo;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -43,7 +46,7 @@ public class CreateAccountController implements Initializable
     public void onLoginButtonPressed(ActionEvent actionEvent)
     {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginScene.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/LoginScene.fxml"));
             Stage stage = (Stage) usernameBox.getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);

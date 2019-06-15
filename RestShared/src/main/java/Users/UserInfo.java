@@ -1,3 +1,5 @@
+package Users;
+
 public class UserInfo
 {
     public String password;

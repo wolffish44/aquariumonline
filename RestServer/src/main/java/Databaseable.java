@@ -1,6 +1,7 @@
 import Communication.USERCREATIONRESPONSE;
-import Model.ClientAquarium;
 import Model.World;
+import Users.User;
+import Users.UserInfo;
 
 public interface Databaseable
 {
